@@ -1,0 +1,162 @@
+
+
+New -- > Runnable --> Running ----->Blocked ( sleep method , wait method, suspend method, I/O operation) 	--> Dead			
+    --->Thread Pool ---
+			running state --------->
+			  --T1------ T2------- T1------- T3------T2----
+	 T3 , T1
+
+
+
+Priority --> 1 to 10 
+Thread - MIN_PRIOTIRY = 1, MAX_PRIORITY = 10, NORM_PRIORITY = 5
+	Thread.MIN_PRIORITY
+	
+yield -> give way to others
+
+
+Race Condition - multiple threads trying to acquire same resource object
+Thread Synchronization - 
+		synchronized block	
+		synchronized method
+
+	thread-safe
+
+
+Dead lock situation - > to avoid - > design code properly
+
+Starvation - one thread is getting access to execute (greedy thread) while other threads are 
+not getting chance to run 
+
+	priority
+
+	threads which are using I/O opearations, give them higher priority
+
+
+
+Java 8 - 2014
+
+Features - >
+1. Lambda Expression
+2. Functional Interface - one abstract method - Runnable, Comparator, Comparable 
+3. Java Stream API for Bulk Data Operations on Collections
+4. Java Time API
+5. Collection API improvements - forEach() method with Iterable interface
+6. Java IO improvements
+7. Concurrency API improvements
+8. default and static method in interface
+many more.....
+
+basic syntax
+
+(parameter) -> expression body
+
+() -> System.out.println("Welcome");
+
+
+
+ () -> System.out.println("Method from I..");
+
+OR
+	()-> {
+		System.out.println("Method from I..");
+		
+	}
+
+
+Assignment 0 :- write lambda expression to print your name
+
+Assignment 1 :- write lambda expression to calculate square of a number.
+
+Assignment 2 : write lambda expression to reverse the String
+
+Functional interface -> it contains only one abstract method
+
+
+
+
+File - name of fruits  -  - E:\Client\DXC\files\fruits.txt
+
+BufferedReader
+
+LinkedHashSet 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+Thread.yield() --> pause currently executing thread
+
+
+
+
+
+
+
